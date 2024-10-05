@@ -1,10 +1,14 @@
 package ex_21072024;
 
+import java.util.Scanner;
+
 public class Lab114 {
     public static void main(String[] args) {
-        // reverse of A to z
-        for (int i = 10; i > 0; i--) {
+        int i = 10;
+//        boolean c1 = i > 0;
+        for (; i> 0 ; i--) {
             System.out.println(i);
         }
     }
 }
+
